@@ -1,0 +1,49 @@
+GOOGLE SEARCH CONSOLE VERIFICATION
+====================================
+
+Since your site is hosted on GitHub Pages, the easiest verification method is the HTML TAG method.
+
+STEP-BY-STEP:
+
+1. Go to: https://search.google.com/search-console/
+   Click "Start now" and sign in with your Google account.
+
+2. Click "Add property" (top left dropdown)
+
+3. Choose "URL prefix" (NOT Domain)
+   Enter: https://thesabbirahmed.github.io/
+   Click Continue
+
+4. Under "Verify ownership", choose:
+   "HTML tag" method
+
+5. Google will give you a meta tag like this:
+   <meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXXXXXXX" />
+
+6. Open your index.html in GitHub
+   Add that tag INSIDE your <head> section, right after:
+   <meta name="author" content="Sabbir Ahmed">
+
+7. Commit the change.
+
+8. Wait 2-3 minutes, then click "Verify" in Search Console.
+
+9. Once verified, go to:
+   Sitemaps (left sidebar) > Add a new sitemap
+   Enter: sitemap.xml
+   Click Submit
+
+DONE. Google will now actively crawl and index your site.
+
+====================================
+BING WEBMASTER TOOLS (Do this too!)
+====================================
+
+1. Go to: https://www.bing.com/webmasters/
+2. Sign in with Microsoft account
+3. Click "Add a site" > enter https://thesabbirahmed.github.io/
+4. Choose "Auto verify via Google Search Console" (fastest option if already verified)
+   OR use the XML file method and upload to your repo root
+5. Submit sitemap: https://thesabbirahmed.github.io/sitemap.xml
+
+This covers Bing AND Microsoft Copilot AI indexing.
